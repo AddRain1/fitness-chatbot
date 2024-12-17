@@ -79,6 +79,18 @@
           "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
           "What did the buffalo say when his son left for college? Bison."
         ]
+      },
+      {
+        "tag": "workouts",
+        "patterns": [
+          "What workouts do you have?",
+          "What kinds of workouts are there?",
+          "What do you offer?"
+        ],
+        "responses": [
+          "We offer yoga, pilates, and weight training",
+          "We have yoga, pilates, and weight training"
+        ]
       }
     ]
   }
