@@ -10,7 +10,7 @@ with open('intents.json', 'r') as f:
     intents = json.load(f)
 
 FILE = "data.pth"
-data = torch.load(FILE)
+data = torch.load(FILE, weights_only=True)
 
 input_size = data["input_size"]
 hidden_size = data["hidden_size"]
