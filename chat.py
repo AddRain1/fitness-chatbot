@@ -24,7 +24,7 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "ChatBot"
-print("Let's chat! (type 'quit' to exit)")
+print("Hi there, what would you like help with? (type 'quit' to exit)")
 
 while True:
     sentence = input("You: ")
